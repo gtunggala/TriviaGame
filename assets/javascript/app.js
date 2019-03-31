@@ -121,7 +121,7 @@ function renderQuestion() {
     choiceA.innerHTML= q.choiceA;
     choiceB.innerHTML= q.choiceB;
     choiceC.innerHTML= q.choiceC;
-}
+};
 
 start.addEventListener("click", startQuiz);
 
@@ -132,15 +132,10 @@ function startQuiz(){
     quiz.style.display= "block";
     renderCounter();
     timer= setInterval(renderCounter, 1000);
-}
+};
 
-
-
-//yolo
 
 //this is ya counter
-
-
 function renderCounter(){
     if(count <= questionTime){
         counter.innerHTML = count;
@@ -159,10 +154,9 @@ function renderCounter(){
             scoreRender();
         }
     }
-}
+};
 
 checkAnswer
-
 function checkAnswer(answer){
     if( answer == questions[runningQuestion].correct){
         // answer is correct
@@ -183,19 +177,16 @@ function checkAnswer(answer){
         clearInterval(TIMER);
         scoreRender();
     }
-}
+};
 
-// answer is correct
 function answerIsCorrect(){
     document.getElementById(runningQuestion);
-}
-
-// answer is Wrong
+};
 function answerIsWrong(){
     document.getElementById(runningQuestion);
-}
-
-// score render
+};
 function scoreRender(){
     scoreDiv.style.display = "block";
 };
+
+// I was unable to figure out how to show the user if the question answered was wrong or right.
