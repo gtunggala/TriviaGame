@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+
+body {
+    background-image: url("../images/br-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#start {
+    border: 4px solid rgb(33, 48, 112);
+    padding: 25px;
+    margin: 0px 20px;
+    display: inline-block;
+    background-color: rgb(145, 238, 218);
+    color:rgb(33, 48, 112);
+    font-family: Asap, sans-serif;
+}
+
+#question {
+    border: 4px solid rgb(94, 18, 12);
+    padding: 25px;
+    margin: 0px 20px;
+    display: inline-block;
+    background-color: rgb(248, 197, 86);
+    color:rgb(94, 18, 12);
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+#container {
+    width: 960px;
+    padding: 30px;
+ }
+
+.choice {
+    border: 4px solid rgb(33, 48, 112);
+    padding: 25px;
+    margin: 10px 20px;
+    display: inline-block;
+    background-color: rgb(145, 238, 218);
+    color:rgb(33, 48, 112);
+    font-family: Asap, sans-serif;
+}
+
+#qImg {
+    display: block;
+    margin: 5px;
+    padding: 15px;
+
+}
+
+#timer {
+    border: 4px solid rgb(33, 48, 112);
+    padding: 25px;
+    margin: 20px;
+    display: inline-block;
+    background-color: white;
+    color:rgb(33, 48, 112);
+    font-family: Asap, sans-serif;
+}
